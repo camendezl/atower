@@ -1,6 +1,6 @@
 - name: Welcome message
   hosts: all
-  task:
+  tasks:
     - name: Show the welcome message
       debug:
         msg: Welcome to Ansible Tower
