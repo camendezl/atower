@@ -3,4 +3,4 @@
   tasks:
     - name: Show the welcome message
       debug:
-        msg: Welcome to Ansible Tower
+        msg: Welcome to Ansible Tower and the {{ var-name }} playbook
