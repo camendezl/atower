@@ -1,6 +1,0 @@
-- name: Welcome message
-  hosts: all
-  tasks:
-    - name: Show the welcome message
-      debug:
-        msg: Welcome to Ansible Tower and the {{ varname }} playbook
